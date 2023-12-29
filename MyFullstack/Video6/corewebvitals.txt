@@ -1,0 +1,15 @@
+CLS:- Cumulative Layout Shift
+-----------------------------
+means page load hote hote kitneshift ho raha hai
+
+LCP:- Largest Contentful Paint
+_______________________________
+means website mein sabse bada dikhne wala content kitne der main load ho raha hai.
+
+According to the google- good lcp value is 2.5 for a website
+
+FID:-First Input Delay
+_______________________
+mean agar kisibhi user ne agar kuchh input diya or button click kiya to kitna der leta hai process hone main. 
+
+ideal=100ms
