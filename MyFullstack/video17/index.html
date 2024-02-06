@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      /* Element selector */
+      div {
+        background-color: red;
+      }
+
+      /* Class selector
+        . means Class is red. */
+      .red {
+        background-color: yellow;
+      }
+      /* ID selector = #*/
+      #green {
+        background-color: green;
+      }
+
+      /* Descendant selector -doesnt matter if it is a direct child or not , if p is a descendant of div then it will be applied no matter what ever the condition*/
+      div p {
+        background-color: blue;
+      }
+      /* Child Selector - Only applied to a direct child*/
+      div > p {
+        background-color: brown;
+      }
+      /* Universal Selector */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Pseudo Selector */
+      a:visited {
+        color: yellow;
+      }
+      a:link {
+        /* links that are not visited */
+        color: green;
+      }
+      a:active {
+        background-color: red;
+      }
+      a:hover {
+        background-color: yellow;
+      }
+      p:first-child {
+        /* whwre ever p is the first child it's background color will be changed to aqua */
+        background-color: aqua;
+      }
+    </style>
+    <title>CSS Selectors</title>
+  </head>
+  <body>
+    <pre>
+        <h2>css Selectors:-</h2> CSS selectors allow us to choose specific elements and apply styles to them.
+    --> Class and ID are act as the selectors.
+    </pre>
+
+    <div>I'm a div tag.</div>
+    <div class="red">I'm second div.</div>
+    <div id="green">i'm green.</div>
+
+    <div>
+      <p>i'm Mr. Brown.</p>
+    </div>
+    <div>
+      <article>
+        <p>I'm a descendant of div</p>
+      </article>
+    </div>
+
+    <div>
+      <main>
+        <p>i'm first child</p>
+        <p>i'm second Child</p>
+      </main>
+    </div>
+
+    <a href="https://www.google.com" target="_blank">Go to google</a>
+    <a href="https://www.Facebook2.com" target="_blank">Go to Facebook</a>
+  </body>
+</html>
