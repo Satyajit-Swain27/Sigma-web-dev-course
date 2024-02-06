@@ -1,8 +1,0 @@
- #displays HI
- #displays Hello
- #displays Hello
- #displays $HI                             
- #displays nothing
- #displays HelloAlex
- #displays working directory
- #displays working directory
